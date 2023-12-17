@@ -4,16 +4,22 @@ ELK - Active Directory integration
 
 ELK: ```8.4.3```
 
+
 ```systemctl start kibana```
+
+
 ```systemctl start elasticsearch```
 
 
 ```/usr/share/elasticsearch/bin/elasticsearch-reset-password -u kibana_system```
 
+
 ```/usr/share/elasticsearch/bin/elasticsearch-reset-password -u elastic```
 
 
 ```systemctl restart kibana```
+
+
 ```systemctl restart elasticsearch```
 
 
@@ -21,6 +27,7 @@ ELK: ```8.4.3```
 ```/usr/share/elasticsearch/bin/elasticsearch-keystore add  \
 xpack.security.authc.realms.active_directory.my_ad.secure_bind_password
 ```
+
 
 ```
 PUT /_security/role_mapping/admins
