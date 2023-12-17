@@ -19,8 +19,8 @@ ELK: ```8.4.3```
 
 
 ```/usr/share/elasticsearch/bin/elasticsearch-keystore add  \
-xpack.security.authc.realms.active_directory.my_ad.secure_bind_password```
-
+xpack.security.authc.realms.active_directory.my_ad.secure_bind_password
+```
 
 ```PUT /_security/role_mapping/admins
 {
