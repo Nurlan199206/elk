@@ -58,3 +58,7 @@ PUT /_security/role_mapping/basic_users
 ```
 
 ![image](https://github.com/Nurlan199206/elk/assets/22808731/f00e7056-c761-47da-ab0c-e4e68455c6df)
+
+
+![image](https://github.com/Nurlan199206/elk/assets/22808731/0ed9f940-2545-4d22-a8d4-25e48e2eb9e1)
+
